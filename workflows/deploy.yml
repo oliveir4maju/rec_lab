@@ -5,9 +5,9 @@ name: PipelineFlask
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "PROD" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "PROD" ]
 
 
 jobs:
